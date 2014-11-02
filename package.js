@@ -2,7 +2,7 @@ Package.describe({
     name: 'rnorth:yammer',
     summary: 'Yammer OAuth flow',
     version: '0.1.0',
-    git: ' /* Fill me in! */ '
+    git: 'https://github.com/rnorth/yammer.git'
 });
 
 Package.onUse(function (api) {
