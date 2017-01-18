@@ -22,7 +22,7 @@ Yammer.requestCredential = function(options, credentialRequestCompleteCallback) 
 
     var loginUrl = "https://www.yammer.com/dialog/oauth" +
         "?client_id=" + config.clientId +
-        "&redirect_uri=" + OAuth._redirectUri("yammer", config) +
+        "&redirect_uri=" + config.redirectUri +
         "&state=" + OAuth._stateParam(loginStyle, credentialToken);
 
     OAuth.launchLogin({
